@@ -1,0 +1,57 @@
+body{
+    background-color: hsl(0, 29%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 30px;
+     border: 5px solid;
+     border-radius: 20px;
+     background-color: white;
+}
+#myH1{
+     font-size: 4rem;
+     font-family: poppins;
+     color: hsl(0, 0%, 35%);
+ }
+#display{
+    font-size: 5rem;
+    font-family: poppins;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    transition: ease-in;
+}
+#controls button{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding:  10px 20px;
+    margin: 5px;
+   min-width: 145px;
+   border-radius: 15px;
+   cursor: pointer;
+   color: white;
+
+}
+#strtbtn{
+        background-color: hsl(128, 64%, 48%);
+}
+#strtbtn:hover{
+    background-color: hsl(128, 64%, 38%);
+}
+#stbtn{
+    background-color: hsl(0, 85%, 48%);
+}
+#stbtn:hover{
+    background-color: hsl(0, 85%, 38%);
+}
+#rstbtn{
+    background-color: hsl(251, 89%, 45%);
+}
+#rstbtn:hover{
+    background-color: hsl(251, 89%, 35%);
+}
